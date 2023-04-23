@@ -1,0 +1,51 @@
+{% extends 'discount/base.html' %}
+{% load static %}
+{% block content %}
+
+<section>
+<div class="breadcrumb">
+				<div>
+					<a href="{% url 'discount:index' %}">Главная страница</a><span>/</span>Мастера
+				</div>
+			</div>
+
+<h2 class="title">Наши мастера</h2>
+                    <h4>Шишкина 299</h4>
+<!--                    <p>Шишкина 299</p>-->
+
+
+                	<div class="row">
+                        {% for master in master1 %}
+                        <div class="span3">
+                            <div class="profile">
+                            	<img alt="" src="{{ master.photo.url }}">
+                                <h4>{{ master.name }}</h4>
+                                <div class="profile_title">{{ master.specialization }}</div>
+                                    <div class="btn-group" style="margin: 9px 0;">
+                                        <button class="btn"><a href="{{ master.link }}" target="_blank">Записаться</a></button>
+                                    </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+
+                    <h4>Заречная дом 45 корпус 2 парадная 4</h4>
+<!--                    <p>Заречная</p>-->
+
+                	<div class="row">
+                        {% for master in master2 %}
+                        <div class="span3">
+                            <div class="profile">
+                            	<img alt="" src="{{ master.photo.url }}">
+                                <h4>{{ master.name}}</h4>
+                                <div class="profile_title">{{ master.specialization }}</div>
+                                <div class="btn-group" style="margin: 9px 0;">
+                                        <button class="btn"><a href="{{ master.link }}">Записаться</a></button>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+
+</section>
+{% endblock %}

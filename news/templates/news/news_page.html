@@ -1,0 +1,16 @@
+{% extends 'discount/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="post">
+  <img src="{{ news.image.url }}" alt="" />
+  <div class="post_info">
+        <div class="fleft"><span>{{ news.date|date:'j E Y' }}</span></div>
+<!--        <div class="fright"><a href="#">25</a> Comments</div>-->
+        <div class="clear"></div>
+  </div>
+    <p>{{ news.description|safe }}</p>
+</div>
+
+
+{% endblock %}

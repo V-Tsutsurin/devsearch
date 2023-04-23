@@ -1,0 +1,53 @@
+{% extends 'discount/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="page_container">
+    	<div class="wrap">
+        	<div class="breadcrumb">
+				<div>
+					<a href="{% url 'discount:index' %}">Главная страница</a><span>/</span>Контакты
+				</div>
+			</div>
+			<div class="container">
+                <section>
+                	<div class="row">
+                    	<div class="span4">
+                        	<h2 class="title">Контактная информация</h2>
+                            <div id="map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ade89d2cd99319b0156f9689c3a48b781bad1de5c04de7947b02809e1ef1178bf&amp;source=constructor" width="895" height="600" frameborder="0"></iframe></div>
+
+                        </div>
+                    	<div class="span8">
+							<h2 class="title"></h2>
+<!--                        	<h2 class="title">Get In Touch</h2>-->
+<!--                            <div class="contact_form">-->
+<!--                            	<div id="note"></div>-->
+<!--                                <div id="fields">-->
+<!--                                    <form id="ajax-contact-form" action="">-->
+<!--                                        <input class="span7" type="text" name="name" value="" placeholder="Name (required)" />-->
+<!--                                        <input class="span7" type="text" name="email" value="" placeholder="Email (required)" />-->
+<!--                                        <input class="span7" type="text" name="subject" value="" placeholder="Subject" />-->
+<!--                                        <textarea name="message" id="message" class="span8" placeholder="Message"></textarea>-->
+<!--                                        <div class="clear"></div>-->
+<!--                                        <input type="reset" class="contact_btn" value="Clear form" />-->
+<!--                                        <input type="submit" class="contact_btn" value="Submit" />-->
+<!--                                        <div class="clear"></div>-->
+<!--                                    </form>-->
+<!--                                </div>-->
+<!--                            </div>-->
+							<h3>Салон на Заречной</h3>
+                            <p>ст.метро Парнас, ул. Заречная, дом 45, корпус 2, парадная 4</p>
+                            <p>Телефон: +7 (960) 205-69-00<br/>Режим работы 10:00 - 22:00<br/><a href="https://dikidi.net/819068">Онлайн запись</a></p>
+
+							<h3><br/>Салон на Шишкина</h3>
+							<p>ст.метро Парнас, ул. Шишкина, дом 299</p>
+                            <p>Телефон: +7 (960) 205-69-00<br/>Режим работы 10:00 - 20:00<br/><a href="https://dikidi.net/492557">Онлайн запись</a></p>
+
+                        </div>
+                	</div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends 'discount/base.html' %}
+{% load static %}
+{% block content %}
+<div class="page_container">
+			<!--slider-->
+			<div id="main_slider">
+				<div class="camera_wrap" id="camera_wrap_1">
+					{% for slider in sliders %}
+					<div data-src="{{ slider.slider.url }}">
+						<div class="camera_caption fadeIn">
+							<div class="slide_descr">{{ slider.slider_description }}</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div><!-- #camera_wrap_1 -->
+				<div class="clear"></div>
+			</div>
+			<!--//slider-->
+
+			<!--Welcome-->
+			<div class="wrap welcome_bg">
+				<div class="welcome_block">
+					<span>Превратите свои волосы в произведение</br>искусства с нашей помощью!</span>
+					<a class="welc_btn" href="{% url 'additional:photos' %}">Примеры работ</a>
+				</div>
+			</div>
+			<!--//Welcome-->
+			<!--Latest news-->
+			<div class="wrap latest_news_block">
+				<h2 class="title">Актуальная информация</h2>
+				<ul class="row">
+					{% for discount in discounts %}
+					<li class="span3 ">
+						<div class="post_prev">
+							<a href="{% url 'discount:detail' discount.id %}"><img src="{{ discount.image.url }}" alt=""></a>
+<!--							<img src="{{ discount.image.url }}" alt="" />-->
+<!--							<a class="zoom_block" href="{{ discount.image.url }}" rel="prettyPhoto[portfolio1]"><span class="zoom"></span></a>-->
+						</div>
+					</li>
+					{% endfor %}
+					<div class="clear"></div>
+
+				</ul>
+			</div>
+</div>
+{% endblock %}
