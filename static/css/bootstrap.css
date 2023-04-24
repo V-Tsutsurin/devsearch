@@ -309,7 +309,7 @@ a:focus {
 }
 
 .span8 {
-  width: 620px;
+  width: 45%;
 }
 
 .span7 {
@@ -325,11 +325,12 @@ a:focus {
 }
 
 .span4 {
-  width: 300px;
+  width: 45%;
 }
 
 .span3 {
   width: 220px;
+  /*height: 420px;*/
 }
 
 .span2 {
@@ -676,7 +677,7 @@ cite {
 }
 
 .muted {
-  color: #999999;
+  color: black;
 }
 
 a.muted:hover,

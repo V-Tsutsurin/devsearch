@@ -13,7 +13,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration:none;
-	color:#aacaab;
+	color:#a85da4;
 }
 body {
 	overflow-x:hidden;
@@ -24,7 +24,7 @@ body {
 	font-weight:400;
 	font-size: 13px;
 	line-height: 20px;
-	color: #989898;
+	color: black;
 	background-attachment: fixed;
     /*background-image: url(../images/bg.jpg);*/
     background-image: url(../image/bg.jpg);
@@ -189,7 +189,7 @@ img {
 .menu_wrap .nav > li > ul li > a:hover,
 .menu_wrap .nav > li > ul li.current > a {
 	text-decoration: none;
-	color:#aacaab !important;
+	color:#a85da4 !important;
 }
 
 .menu_wrap .nav ul ul {
@@ -231,7 +231,7 @@ img {
 	-webkit-transition: all 0.3s ease-in-out;
 }
 .planning a:hover .service_block {
-	border-bottom:3px solid #aacaab;
+	border-bottom:3px solid #a85da4;
 }
 .planning a .icon_block {
 	display:block;
@@ -260,7 +260,7 @@ img {
 	-webkit-transition: all 0.3s ease-in-out;
 }
 .planning a:hover .link_title {
-	color:#aacaab;
+	color:#a85da4;
 }
 
 
@@ -330,7 +330,7 @@ img {
 	-webkit-transition: all 0.4s ease-in-out;
 }
 .post_prev:hover {
-	border:5px solid #aacaab;
+	border:5px solid #a85da4;
 }
 a.zoom_block {
 	position:absolute;
@@ -375,7 +375,7 @@ h5 small,
 h6 small,
 h1, h2, h3, h4, h5, h6 {
 	font-weight:400;
-	color:#5c5c5c;
+	color:black;
 }
 h2.title {
 	padding:0;
@@ -399,7 +399,7 @@ h2.title a {
 	text-transform:none;
 }
 h2.title a:hover {
-	color:#aacaab;
+	color:#a85da4;
 	text-decoration:none;
 }
 .post h2.title {
@@ -592,7 +592,7 @@ ul.tweet_list {margin-left:0;
 .contact_btn {
 	position:relative !important;
 	padding:6px 13px !important;
-	background: #aacaab !important;
+	background: #a85da4 !important;
 	border: 0 !important;
 	border-radius: 0;
 	box-shadow: 0;
@@ -668,13 +668,14 @@ legend {
 
 .projects .hover_img {
 	position:relative;
-	background:#aacaab;
+	background:#a85da4;
+	/*height: 380px;*/
 }
 
 .portfolio_zoom a, .portfolio_link a {
 	display:inline-block;
-	width:34px;
-	height:34px;
+	width:38px;
+	height:38px;
 	position:absolute;
 	bottom:-50px;
 	background-repeat:no-repeat;
@@ -697,14 +698,14 @@ legend {
 }
 .hover_img:hover .portfolio_link a {
 	bottom:50%;
-	right:50%;
+	right:55%;
 	margin:0 -38px -17px 0;
 	opacity:1;
 	filter: alpha(opacity=100);
 }
 .hover_img:hover .portfolio_zoom a {
 	bottom:50%;
-	left:50%;
+	left:55%;
 	margin:0 0 -17px -38px;
 	opacity:1;
 	filter: alpha(opacity=100);
@@ -742,7 +743,7 @@ legend {
 	color:#787878;
 }
 .item_description h6 a:hover {
-	color:#aacaab;
+	color:#a85da4;
 }
 
 /**** Isotope Filtering ****/
@@ -843,7 +844,7 @@ legend {
 }
 #portfolio_carousel .carousel-control:hover {
 	background-position:0 -29px;
-	background-color:#aacaab;
+	background-color:#a85da4;
 	opacity:1;
 	filter: alpha(opacity=100);
 }
@@ -855,6 +856,7 @@ legend {
 }
 
 .post {padding-bottom:40px;
+	text-align: center;
 }
 .post h2.title {margin-bottom:21px;
 }
@@ -864,14 +866,14 @@ ul.links {margin-bottom:15px;
 ul.links li {
 	padding:0 0 3px 17px;
 	margin:0;
-	color:#aacaab;
+	color:#a85da4;
 	background:url(../image/li_arrow.png) no-repeat left top;
 }
 ul.links li a {	color:#474747;
 }
 ul.links li a:hover {
 	text-decoration:none;
-	color:#aacaab;
+	color:#a85da4;
 } 
 
 .post img {
@@ -881,14 +883,14 @@ ul.links li a:hover {
 
 .post_info {
 	padding:5px 0;
-	border-bottom:1px #aacaab dotted;
-	border-top:1px #aacaab dotted;
+	border-bottom:1px #a85da4 dotted;
+	border-top:1px #a85da4 dotted;
 	margin-bottom:12px;
 	color:#555;
 }
 .post_info a {color:#787878;
 }
-.post_info a:hover {color:#aacaab;
+.post_info a:hover {color:#a85da4;
 }
 .post_info span {color:#787878;
 }
@@ -941,7 +943,7 @@ ul.recent_post div {padding:3px 0 2px 0;
 }
 ul.recent_post div a {color:#474747;
 }
-ul.recent_post div a:hover {color:#aacaab;
+ul.recent_post div a:hover {color:#a85da4;
 }
 
 #filters li {
@@ -964,7 +966,7 @@ ul.recent_post div a:hover {color:#aacaab;
 #filters li a:hover,
 #filters li a.selected,
 .tags a:hover {
-	background-color:#aacaab;
+	background-color:#a85da4;
 	text-decoration:none;
 	color:#fff  !important;
 }
@@ -1055,7 +1057,7 @@ ul.recent_post div a:hover {color:#aacaab;
 .nav-list .active a,
 .nav-list .active a:hover,
 .nav-list .active a:focus {
-	background-color:#aacaab;
+	background-color:#a85da4;
 }
 
 .nav li a:hover,
@@ -1070,7 +1072,7 @@ ul.recent_post div a:hover {color:#aacaab;
 .dropdown-menu li a:focus,
 .dropdown-submenu:hover a,
 .dropdown-submenu:focus a {
-	background-color: #aacaab;
+	background-color: #a85da4;
 	background-image: none;
 }
 
@@ -1107,7 +1109,7 @@ ul.recent_post div a:hover {color:#aacaab;
 .tabs-below .nav-tabs .active a,
 .tabs-below .nav-tabs .active a:hover,
 .tabs-below .nav-tabs .active a:focus {
-	border-color:#aacaab;
+	border-color:#a85da4;
 	color:#fff;
 }
 
@@ -1121,8 +1123,8 @@ ul.recent_post div a:hover {color:#aacaab;
 .nav .dropdown-toggle:hover .caret,
 .nav .dropdown-toggle:focus .caret,
 .nav .dropdown-toggle .caret {
-	border-bottom-color: #aacaab;
-    border-top-color: #aacaab;
+	border-bottom-color: #a85da4;
+    border-top-color: #a85da4;
 }
 
 
@@ -1139,6 +1141,12 @@ ul.recent_post div a:hover {color:#aacaab;
 
 }
 
+/*ul li {*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	height: 100%;*/
+/*	flex: 1;*/
+/*}*/
 
 
 /* __________________________________ //Bootstrap style __________________________________ */
